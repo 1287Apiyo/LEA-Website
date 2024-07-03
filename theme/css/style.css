@@ -57,7 +57,7 @@ p {
 }
 
 .navbar-toggle .icon-bar {
-  background: #f89d35;
+  background: #863bae;
 }
 
 input[type=email], input[type=password], input[type=text], input[type=tel] {
@@ -182,7 +182,7 @@ input[type=email]:focus, input[type=password]:focus, input[type=text]:focus, inp
 }
 
 .bg-primary {
-  background: #f89d35;
+  background:#863bae;
 }
 
 .bg-primary-dark {
@@ -485,6 +485,13 @@ ul.list-styled {
   list-style-position: inside;
   padding-left: 25px;
 }
+/* styles.css */
+
+.logo {
+  width: 100px; /* Adjust width as needed */
+  /* Optionally, add max-width to ensure it scales down on smaller screens */
+
+}
 
 @media (max-width: 1023px) {
   #navbar {
@@ -498,7 +505,7 @@ ul.list-styled {
   border: 0;
   margin-top: 11px;
   color: #fff;
-  background-color: #f89d35;
+  background-color: #da27c5;
   outline: 0;
   height: 2.8rem;
   width: 2.8rem;
@@ -551,7 +558,7 @@ ul.list-styled {
   }
 }
 #navbar .navbar-link:hover, #navbar .navbar-link:focus {
-  color: #f89d35;
+  color: #863bae;
 }
 #navbar .btn:hover {
   color: #fff;
@@ -568,7 +575,7 @@ ul.list-styled {
 }
 .header-top .top-btn {
   padding: 14px 25px;
-  background: #f89d35;
+  background: #863bae;
   line-height: 40px;
   color: #fff;
 }
@@ -674,7 +681,7 @@ ul.list-styled {
   border-bottom: 1px solid rgba(0, 0, 0, 0.03);
 }
 .navbar-dropdown .navbar-item:hover {
-  background: #f89d35 !important;
+  background: #863bae !important;
   color: #fff !important;
 }
 @media (max-width: 1023px) {
@@ -713,9 +720,9 @@ ul.list-styled {
 }
 
 .slider {
-  background: url("../images/bg/banner.jpg") no-repeat;
+  background: url("../images/bg/LEA-30.jpg") no-repeat;
   background-size: cover;
-  background-position: 10% 0%;
+  background-position: 10% 30%;
   padding: 100px 0;
   position: relative;
 }
